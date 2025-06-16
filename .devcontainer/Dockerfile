@@ -13,6 +13,7 @@ RUN apt update && \
     gcc-arm-linux-gnueabi \
     file \
     qemu-user-static \
+    npm \
     && rm -rf /var/lib/apt/lists/*
 
 # 設定 Ceedling 預設 locale (避免 warn)
